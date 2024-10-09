@@ -12,7 +12,7 @@ Here's an example using [CornucopiaHTTP](https://github.com/Cornucopia-Swift/Cor
 ```
 import CornucopiaHTTP
 import Foundation
-import swift_itunes_search_api
+import iTunesSearchAPI
 
 let bundleId = "com.apple.ibooks"
 print("Looking up \(bundleId)...")
