@@ -3,7 +3,7 @@
 import ArgumentParser
 import CornucopiaHTTP
 import Foundation
-import swift_itunes_search_api
+import iTunesSearchAPI
 
 @main
 struct Search: AsyncParsableCommand {

@@ -14,7 +14,7 @@ let package = Package(
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
-        .library(name: "swift-itunes-search-api", targets: ["swift-itunes-search-api"]),
+        .library(name: "swift-itunes-search-api", targets: ["iTunesSearchAPI"]),
         .executable(name: "swift-itunes-search", targets: ["swift-itunes-search"]),
     ],
     dependencies: [
@@ -24,15 +24,15 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        .target(name: "swift-itunes-search-api"),
+        .target(name: "iTunesSearchAPI"),
         .executableTarget(
             name: "swift-itunes-search",
             dependencies: [
-                "swift-itunes-search-api",
+                "iTunesSearchAPI",
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),
                 .product(name: "CornucopiaHTTP", package: "CornucopiaHTTP"),
             ]
         ),
-        .testTarget(name: "swift-itunes-search-apiTests", dependencies: ["swift-itunes-search-api"]),
+        .testTarget(name: "swift-itunes-search-apiTests", dependencies: ["iTunesSearchAPI"]),
     ]
 )
