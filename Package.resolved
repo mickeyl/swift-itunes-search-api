@@ -1,5 +1,5 @@
 {
-  "originHash" : "29190e67bf8185c63b2beddda15c129b1b463d6a404e81864f8a374869315dd4",
+  "originHash" : "a29d0ec97de7a3b228a0cdfd31780e756281ac5a582d345f47b6cf5b824ba1e9",
   "pins" : [
     {
       "identity" : "anycodable",
@@ -34,7 +34,7 @@
       "location" : "https://github.com/Cornucopia-Swift/CornucopiaHTTP",
       "state" : {
         "branch" : "master",
-        "revision" : "a056d39ba3b2b01e3027867cfda1360db86641ac"
+        "revision" : "48e6fb9ac01775eaab05a98cda99491c2061c689"
       }
     },
     {
